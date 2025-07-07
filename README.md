@@ -24,6 +24,7 @@
 - 완벽한 정답이란 존재하지 않는다 : 모든 사람이 항상 똑같은 결과를 도출할수는 없다
     - 정답률을 높이기 위해서는 시행착오를 거쳐 수정해야한다
     - 수정 과정에는 많은 비용이 발생한다
+      
         → 비용을 줄이는 방법은? 과정을 전부 분할하여 오류가 있을 때마다 해당 부분만을 수정한다
 
 **Types of Data** : 저장하기 부담스러운 데이터를 구분하기 위해 분류
@@ -34,10 +35,13 @@
 - 종류
     - Structured Data : 구조화된 데이터. 비교적 처리 비용이 싸다
     - Semi-structured Data : 구조와 비구조 형태가 섞인 데이터
-        → Semi-Structured Data 중 구조화된 데이터만 사용한다면 Structured Data와 동일 
+      
+        → Semi-Structured Data 중 구조화된 데이터만 사용한다면 Structured Data와 동일
+      
     - Unstructured Data : 구조가 자유로운 데이터
 
 **ETL PROCESS**
 - 추출(Extract) → 변환(Transform) → 적재(Load) 과정
 - 각 과정을 별개의 과정이라 생각하고 단계 별로 작업하라
+  
     → 모든 과정을 한 번에 돌리며 수정하지 말고, 각 단계 별로 테스트하며 오류를 검출할 것
